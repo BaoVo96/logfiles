@@ -1,0 +1,881 @@
+05/03/2018 00:00:00;0002;Server@node2;Svr;Log;Log opened
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;pbs_version=14.0.1
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;pbs_build=mach=N/A:security=N/A:configure_args=N/A
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;hostname=node2.supernodexp.hpc;pbs_leaf_name=N/A;pbs_mom_node_name=N/A
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;ipv4 interface lo: localhost localhost.localdomain localhost4 localhost4.localdomain4 
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;ipv4 interface br0: node2.supernodexp.hpc node2 supernodexp-cn02 
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;ipv4 interface ib0: node2.supernodexp.hpc 
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;ipv4 interface virbr0: node2.supernodexp.hpc 
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;ipv4 interface docker0: node2.supernodexp.hpc 
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;ipv6 interface lo: localhost localhost.localdomain localhost6 localhost6.localdomain6 
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;ipv6 interface eno49: node2.supernodexp.hpc 
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;ipv6 interface br0: node2.supernodexp.hpc 
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;ipv6 interface ib0: node2.supernodexp.hpc 
+05/03/2018 00:00:00;0002;Server@node2;Svr;Server@node2;ipv6 interface veth1pl8819: node2.supernodexp.hpc 
+05/03/2018 00:00:00;0002;Server@node2;Svr;Act;Account file /var/spool/pbs/server_priv/accounting/20180503 opened
+05/03/2018 00:03:22;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 00:03:22;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:03:22;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:03:22;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:03:22;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:03:22;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:03:22;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:03:22;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:23;0080;Server@node2;Job;13635.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:06:24;0080;Server@node2;Job;13659.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:06:24;0080;Server@node2;Job;13682.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:06:26;0010;Server@node2;Job;13682.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9828kb resources_used.ncpus=12 resources_used.vmem=812724kb resources_used.walltime=00:27:48
+05/03/2018 00:06:26;0100;Server@node2;Job;13682.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:06:26;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:06:26;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0008;Server@node2;Job;13830.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node14:ncpus=12:mem=20971520kb)
+05/03/2018 00:06:26;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0008;Server@node2;Job;13841.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:06:26;0010;Server@node2;Job;13635.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=10200kb resources_used.ncpus=12 resources_used.vmem=104372kb resources_used.walltime=00:27:48
+05/03/2018 00:06:26;0100;Server@node2;Job;13635.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:06:26;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:06:26;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0010;Server@node2;Job;13659.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9392kb resources_used.ncpus=12 resources_used.vmem=171960kb resources_used.walltime=00:27:48
+05/03/2018 00:06:26;0100;Server@node2;Job;13659.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0008;Server@node2;Job;13841.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node14:ncpus=12:mem=20971520kb)
+05/03/2018 00:06:26;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0008;Server@node2;Job;13846.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:06:26;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:06:26;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0008;Server@node2;Job;13846.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node14:ncpus=12:mem=20971520kb)
+05/03/2018 00:06:26;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:06:26;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:26;0008;Server@node2;Job;13856.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:06:58;0080;Server@node2;Job;13687.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:06:59;0010;Server@node2;Job;13687.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9396kb resources_used.ncpus=12 resources_used.vmem=39808kb resources_used.walltime=00:27:53
+05/03/2018 00:06:59;0100;Server@node2;Job;13687.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:06:59;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:06:59;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:06:59;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:59;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:59;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:59;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:59;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:59;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:59;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:59;0008;Server@node2;Job;13856.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node3:ncpus=12:mem=20971520kb)
+05/03/2018 00:06:59;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:06:59;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:06:59;0008;Server@node2;Job;13858.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:07:12;0080;Server@node2;Job;13693.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:07:12;0080;Server@node2;Job;13696.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:07:12;0080;Server@node2;Job;13746.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:07:13;0010;Server@node2;Job;13696.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9360kb resources_used.ncpus=12 resources_used.vmem=104700kb resources_used.walltime=00:27:50
+05/03/2018 00:07:13;0100;Server@node2;Job;13696.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:07:13;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:07:13;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0010;Server@node2;Job;13746.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9360kb resources_used.ncpus=12 resources_used.vmem=172288kb resources_used.walltime=00:27:21
+05/03/2018 00:07:13;0100;Server@node2;Job;13746.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:07:13;0010;Server@node2;Job;13693.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9336kb resources_used.ncpus=12 resources_used.vmem=106752kb resources_used.walltime=00:28:02
+05/03/2018 00:07:13;0100;Server@node2;Job;13693.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0008;Server@node2;Job;13858.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node3:ncpus=12:mem=20971520kb)
+05/03/2018 00:07:13;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0008;Server@node2;Job;13881.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:07:13;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:07:13;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0008;Server@node2;Job;13881.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node3:ncpus=12:mem=20971520kb)
+05/03/2018 00:07:13;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0008;Server@node2;Job;13916.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node3:ncpus=12:mem=20971520kb)
+05/03/2018 00:07:13;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:07:13;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:07:13;0008;Server@node2;Job;13932.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:09:48;0080;Server@node2;Job;13791.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:09:48;0080;Server@node2;Job;13763.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:09:49;0010;Server@node2;Job;13791.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=10004kb resources_used.ncpus=12 resources_used.vmem=171960kb resources_used.walltime=00:27:50
+05/03/2018 00:09:49;0100;Server@node2;Job;13791.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:09:49;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:09:49;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:09:49;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:49;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:49;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:49;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:49;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:49;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:49;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:49;0008;Server@node2;Job;13932.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node14:ncpus=12:mem=20971520kb)
+05/03/2018 00:09:50;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:09:50;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:50;0008;Server@node2;Job;13934.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:09:50;0010;Server@node2;Job;13763.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=10480kb resources_used.ncpus=12 resources_used.vmem=103728kb resources_used.walltime=00:27:51
+05/03/2018 00:09:50;0100;Server@node2;Job;13763.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:09:50;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:09:50;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:09:50;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:50;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:50;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:50;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:50;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:50;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:50;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:50;0008;Server@node2;Job;13934.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node13:ncpus=12:mem=20971520kb)
+05/03/2018 00:09:50;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:09:50;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:09:50;0008;Server@node2;Job;13935.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:11:10;0080;Server@node2;Job;13820.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:11:10;0080;Server@node2;Job;13824.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:11:10;0080;Server@node2;Job;13826.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:11:13;0010;Server@node2;Job;13824.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9748kb resources_used.ncpus=12 resources_used.vmem=812468kb resources_used.walltime=00:27:50
+05/03/2018 00:11:13;0100;Server@node2;Job;13824.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:11:13;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:11:13;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:11:13;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:13;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:13;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:13;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:13;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:13;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:13;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:13;0008;Server@node2;Job;13935.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node13:ncpus=12:mem=20971520kb)
+05/03/2018 00:11:13;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:11:13;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:13;0008;Server@node2;Job;13939.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:11:14;0010;Server@node2;Job;13820.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9624kb resources_used.ncpus=12 resources_used.vmem=1277888kb resources_used.walltime=00:27:50
+05/03/2018 00:11:14;0100;Server@node2;Job;13820.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:11:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:11:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0008;Server@node2;Job;13939.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node13:ncpus=12:mem=20971520kb)
+05/03/2018 00:11:14;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:11:14;0010;Server@node2;Job;13826.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9852kb resources_used.ncpus=12 resources_used.vmem=944660kb resources_used.walltime=00:27:50
+05/03/2018 00:11:14;0100;Server@node2;Job;13826.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0008;Server@node2;Job;14008.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:11:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:11:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0008;Server@node2;Job;14008.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node13:ncpus=12:mem=20971520kb)
+05/03/2018 00:11:14;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:11:14;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:11:14;0008;Server@node2;Job;14022.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:21:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 00:21:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:21:14;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:21:14;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:21:14;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:21:14;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:21:14;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:21:14;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:31:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 00:31:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:31:14;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:31:14;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:31:14;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:31:14;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:31:14;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:31:14;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:12;0080;Server@node2;Job;13830.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:34:12;0080;Server@node2;Job;13841.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:34:12;0080;Server@node2;Job;13846.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:34:12;0080;Server@node2;Job;13856.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:34:13;0010;Server@node2;Job;13856.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9636kb resources_used.ncpus=12 resources_used.vmem=104700kb resources_used.walltime=00:27:13
+05/03/2018 00:34:13;0100;Server@node2;Job;13856.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:34:13;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:34:13;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:34:13;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:13;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:13;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:13;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:13;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:13;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:13;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:13;0008;Server@node2;Job;14022.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node3:ncpus=12:mem=20971520kb)
+05/03/2018 00:34:13;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:34:13;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:13;0008;Server@node2;Job;14026.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:34:14;0010;Server@node2;Job;13841.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9640kb resources_used.ncpus=12 resources_used.vmem=173368kb resources_used.walltime=00:27:46
+05/03/2018 00:34:14;0100;Server@node2;Job;13841.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:34:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:34:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0008;Server@node2;Job;14026.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node14:ncpus=12:mem=20971520kb)
+05/03/2018 00:34:14;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0008;Server@node2;Job;14030.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:34:14;0010;Server@node2;Job;13830.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=10008kb resources_used.ncpus=12 resources_used.vmem=102576kb resources_used.walltime=00:27:46
+05/03/2018 00:34:14;0100;Server@node2;Job;13830.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:34:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:34:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0010;Server@node2;Job;13846.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9988kb resources_used.ncpus=12 resources_used.vmem=102576kb resources_used.walltime=00:27:46
+05/03/2018 00:34:14;0100;Server@node2;Job;13846.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0008;Server@node2;Job;14030.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node14:ncpus=12:mem=20971520kb)
+05/03/2018 00:34:14;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0008;Server@node2;Job;14033.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node14:ncpus=12:mem=20971520kb)
+05/03/2018 00:34:14;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0008;Server@node2;Job;14044.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:34:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:34:14;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:14;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:16;0080;Server@node2;Job;13858.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:34:17;0010;Server@node2;Job;13858.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9104kb resources_used.ncpus=12 resources_used.vmem=170880kb resources_used.walltime=00:27:03
+05/03/2018 00:34:17;0100;Server@node2;Job;13858.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:34:17;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:34:17;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:34:17;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:17;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:17;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:17;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:17;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:17;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:17;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:17;0008;Server@node2;Job;14044.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node3:ncpus=12:mem=20971520kb)
+05/03/2018 00:34:17;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:34:17;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:17;0008;Server@node2;Job;14047.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:34:18;0080;Server@node2;Job;13916.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:34:19;0010;Server@node2;Job;13916.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9096kb resources_used.ncpus=12 resources_used.vmem=103036kb resources_used.walltime=00:27:04
+05/03/2018 00:34:19;0100;Server@node2;Job;13916.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:34:19;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:34:19;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:34:19;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:19;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:19;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:19;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:19;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:19;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:19;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:19;0008;Server@node2;Job;14047.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node3:ncpus=12:mem=20971520kb)
+05/03/2018 00:34:19;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:34:19;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:19;0008;Server@node2;Job;14109.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:34:38;0080;Server@node2;Job;13881.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:34:39;0010;Server@node2;Job;13881.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9356kb resources_used.ncpus=12 resources_used.vmem=106752kb resources_used.walltime=00:27:25
+05/03/2018 00:34:39;0100;Server@node2;Job;13881.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:34:39;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:34:39;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:34:39;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:39;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:39;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:39;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:39;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:39;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:39;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:39;0008;Server@node2;Job;14109.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node3:ncpus=12:mem=20971520kb)
+05/03/2018 00:34:39;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:34:39;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:34:39;0008;Server@node2;Job;14126.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:37:35;0080;Server@node2;Job;13932.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:37:37;0010;Server@node2;Job;13932.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9852kb resources_used.ncpus=12 resources_used.vmem=874924kb resources_used.walltime=00:27:46
+05/03/2018 00:37:37;0100;Server@node2;Job;13932.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:37:37;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:37:37;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:37:37;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:37;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:37;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:37;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:37;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:37;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:37;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:37;0008;Server@node2;Job;14126.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node14:ncpus=12:mem=20971520kb)
+05/03/2018 00:37:37;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:37:37;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:37;0008;Server@node2;Job;14161.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:37:43;0080;Server@node2;Job;13934.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:37:45;0010;Server@node2;Job;13934.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9844kb resources_used.ncpus=12 resources_used.vmem=939148kb resources_used.walltime=00:27:53
+05/03/2018 00:37:45;0100;Server@node2;Job;13934.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:37:45;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:37:45;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:37:45;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:45;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:45;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:45;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:45;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:45;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:45;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:45;0008;Server@node2;Job;14161.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node13:ncpus=12:mem=20971520kb)
+05/03/2018 00:37:45;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:37:45;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:37:45;0008;Server@node2;Job;14183.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:39:04;0080;Server@node2;Job;13935.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:39:04;0080;Server@node2;Job;13939.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:39:04;0080;Server@node2;Job;14008.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 00:39:07;0010;Server@node2;Job;13935.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9876kb resources_used.ncpus=12 resources_used.vmem=1218632kb resources_used.walltime=00:27:51
+05/03/2018 00:39:07;0100;Server@node2;Job;13935.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:39:07;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:39:07;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:39:07;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:07;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:07;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:07;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0008;Server@node2;Job;14183.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node13:ncpus=12:mem=20971520kb)
+05/03/2018 00:39:08;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0008;Server@node2;Job;14195.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:39:08;0010;Server@node2;Job;13939.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9416kb resources_used.ncpus=12 resources_used.vmem=173624kb resources_used.walltime=00:27:51
+05/03/2018 00:39:08;0100;Server@node2;Job;13939.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:39:08;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:39:08;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0010;Server@node2;Job;14008.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9868kb resources_used.ncpus=12 resources_used.vmem=1152200kb resources_used.walltime=00:27:51
+05/03/2018 00:39:08;0100;Server@node2;Job;14008.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0008;Server@node2;Job;14195.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node13:ncpus=12:mem=20971520kb)
+05/03/2018 00:39:08;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0008;Server@node2;Job;14218.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:39:08;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 00:39:08;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0008;Server@node2;Job;14218.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node13:ncpus=12:mem=20971520kb)
+05/03/2018 00:39:08;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 00:39:08;0100;Server@node2;Req;;Type 11 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:39:08;0008;Server@node2;Job;14251.node2.supernodexp.hpc;Job Modified at request of Scheduler@node2.supernodexp.hpc
+05/03/2018 00:49:08;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 00:49:08;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:49:08;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:49:08;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:49:08;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:49:08;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:49:08;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:49:08;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:59:08;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 00:59:08;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 00:59:08;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:59:08;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:59:08;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:59:08;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:59:08;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 00:59:08;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:00:56;0080;Server@node2;Job;14022.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:00:57;0010;Server@node2;Job;14022.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=11392kb resources_used.ncpus=12 resources_used.vmem=104700kb resources_used.walltime=00:26:43
+05/03/2018 01:00:57;0100;Server@node2;Job;14022.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:00:57;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:00:57;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:00:57;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:00:57;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:00:57;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:00:57;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:00:57;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:00:57;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:00:57;0100;Server@node2;Req;;Type 23 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:00:57;0008;Server@node2;Job;14251.node2.supernodexp.hpc;Job Run at request of Scheduler@node2.supernodexp.hpc on exec_vnode (node3:ncpus=12:mem=20971520kb)
+05/03/2018 01:00:57;0001;Server@node2;Svr;Server@node2;Success (0) in req_runjob2, return value of svr_startjob is 0
+05/03/2018 01:01:32;0080;Server@node2;Job;14044.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:01:33;0010;Server@node2;Job;14044.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9096kb resources_used.ncpus=12 resources_used.vmem=106496kb resources_used.walltime=00:27:15
+05/03/2018 01:01:33;0100;Server@node2;Job;14044.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:01:33;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:01:33;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:01:33;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:33;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:33;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:33;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:33;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:33;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:34;0080;Server@node2;Job;14109.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:01:35;0010;Server@node2;Job;14109.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9104kb resources_used.ncpus=12 resources_used.vmem=104700kb resources_used.walltime=00:26:55
+05/03/2018 01:01:35;0100;Server@node2;Job;14109.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:01:35;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:01:35;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:01:35;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:35;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:35;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:35;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:35;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:35;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:39;0080;Server@node2;Job;14047.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:01:40;0010;Server@node2;Job;14047.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=8832kb resources_used.ncpus=12 resources_used.vmem=104444kb resources_used.walltime=00:27:20
+05/03/2018 01:01:40;0100;Server@node2;Job;14047.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:01:40;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:01:40;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:01:40;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:40;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:40;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:40;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:40;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:01:40;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:00;0080;Server@node2;Job;14026.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:02:00;0080;Server@node2;Job;14030.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:02:00;0080;Server@node2;Job;14033.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:02:02;0010;Server@node2;Job;14026.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9984kb resources_used.ncpus=12 resources_used.vmem=104628kb resources_used.walltime=00:27:46
+05/03/2018 01:02:02;0100;Server@node2;Job;14026.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:02:02;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:02:02;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0010;Server@node2;Job;14030.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9740kb resources_used.ncpus=12 resources_used.vmem=1018564kb resources_used.walltime=00:27:46
+05/03/2018 01:02:02;0100;Server@node2;Job;14030.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0010;Server@node2;Job;14033.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=10008kb resources_used.ncpus=12 resources_used.vmem=106680kb resources_used.walltime=00:27:46
+05/03/2018 01:02:02;0100;Server@node2;Job;14033.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:02:02;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:02:02;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:02:02;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:03:57;0080;Server@node2;Job;14126.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:03:58;0010;Server@node2;Job;14126.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9992kb resources_used.ncpus=12 resources_used.vmem=36528kb resources_used.walltime=00:26:20
+05/03/2018 01:03:58;0100;Server@node2;Job;14126.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:03:58;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:03:58;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:03:58;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:03:58;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:03:58;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:03:58;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:03:58;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:03:58;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:05:35;0080;Server@node2;Job;14161.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:05:37;0010;Server@node2;Job;14161.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9792kb resources_used.ncpus=12 resources_used.vmem=875692kb resources_used.walltime=00:27:49
+05/03/2018 01:05:37;0100;Server@node2;Job;14161.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:05:37;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:05:37;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:05:37;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:05:37;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:05:37;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:05:37;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:05:37;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:05:37;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:52;0080;Server@node2;Job;14183.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:06:52;0080;Server@node2;Job;14195.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:06:52;0080;Server@node2;Job;14218.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:06:54;0010;Server@node2;Job;14183.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9980kb resources_used.ncpus=12 resources_used.vmem=171960kb resources_used.walltime=00:27:45
+05/03/2018 01:06:54;0100;Server@node2;Job;14183.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:06:54;0010;Server@node2;Job;14195.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=9412kb resources_used.ncpus=12 resources_used.vmem=106680kb resources_used.walltime=00:27:45
+05/03/2018 01:06:54;0100;Server@node2;Job;14195.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:06:54;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:06:54;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0010;Server@node2;Job;14218.node2.supernodexp.hpc;Exit_status=271 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=10088kb resources_used.ncpus=12 resources_used.vmem=1085764kb resources_used.walltime=00:27:45
+05/03/2018 01:06:54;0100;Server@node2;Job;14218.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:06:54;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:06:54;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:13:24;0080;Server@node2;Job;14251.node2.supernodexp.hpc;Obit received momhop:1 serverhop:1 state:4 substate:42
+05/03/2018 01:13:25;0010;Server@node2;Job;14251.node2.supernodexp.hpc;Exit_status=0 resources_used.cpupercent=0 resources_used.cput=00:00:00 resources_used.mem=11392kb resources_used.ncpus=12 resources_used.vmem=104444kb resources_used.walltime=00:12:27
+05/03/2018 01:13:25;0100;Server@node2;Job;14251.node2.supernodexp.hpc;dequeuing from workq, state 5
+05/03/2018 01:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 2
+05/03/2018 01:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:13:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:13:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:13:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:13:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:13:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:13:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 01:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:23:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:23:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:23:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:23:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:23:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:23:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 01:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:33:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:33:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:33:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:33:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:33:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:33:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 01:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:43:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:43:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:43:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:43:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:43:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:43:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 01:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 01:53:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:53:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:53:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:53:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:53:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 01:53:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 02:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 02:03:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:03:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:03:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:03:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:03:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:03:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 02:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 02:13:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:13:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:13:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:13:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:13:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:13:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 02:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 02:23:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:23:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:23:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:23:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:23:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:23:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 02:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 02:33:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:33:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:33:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:33:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:33:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:33:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 02:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 02:43:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:43:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:43:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:43:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:43:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:43:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 02:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 02:53:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:53:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:53:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:53:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:53:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 02:53:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 03:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 03:03:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:03:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:03:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:03:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:03:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:03:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 03:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 03:13:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:13:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:13:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:13:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:13:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:13:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 03:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 03:23:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:23:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:23:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:23:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:23:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:23:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 03:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 03:33:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:33:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:33:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:33:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:33:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:33:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 03:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 03:43:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:43:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:43:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:43:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:43:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:43:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 03:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 03:53:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:53:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:53:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:53:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:53:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 03:53:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 04:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 04:03:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:03:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:03:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:03:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:03:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:03:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 04:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 04:13:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:13:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:13:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:13:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:13:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:13:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 04:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 04:23:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:23:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:23:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:23:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:23:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:23:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 04:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 04:33:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:33:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:33:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:33:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:33:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:33:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 04:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 04:43:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:43:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:43:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:43:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:43:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:43:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 04:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 04:53:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:53:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:53:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:53:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:53:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 04:53:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 05:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 05:03:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:03:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:03:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:03:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:03:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:03:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 05:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 05:13:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:13:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:13:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:13:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:13:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:13:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 05:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 05:23:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:23:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:23:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:23:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:23:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:23:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 05:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 05:33:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:33:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:33:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:33:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:33:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:33:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 05:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 05:43:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:43:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:43:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:43:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:43:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:43:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 05:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 05:53:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:53:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:53:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:53:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:53:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 05:53:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 06:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 06:03:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:03:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:03:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:03:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:03:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:03:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 06:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 06:13:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:13:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:13:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:13:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:13:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:13:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 06:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 06:23:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:23:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:23:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:23:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:23:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:23:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 06:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 06:33:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:33:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:33:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:33:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:33:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:33:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 06:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 06:43:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:43:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:43:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:43:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:43:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:43:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 06:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 06:53:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:53:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:53:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:53:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:53:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 06:53:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 07:03:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 07:03:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:03:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:03:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:03:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:03:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:03:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 07:13:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 07:13:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:13:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:13:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:13:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:13:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:13:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 07:23:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 07:23:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:23:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:23:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:23:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:23:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:23:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 07:33:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 07:33:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:33:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:33:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:33:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:33:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:33:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 07:43:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 07:43:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:43:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:43:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:43:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:43:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:43:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:52:46;0100;Server@node2;Req;;Type 0 request received from baovo@node2.supernodexp.hpc, sock=16
+05/03/2018 07:52:46;0100;Server@node2;Req;;Type 49 request received from baovo@node2.supernodexp.hpc, sock=19
+05/03/2018 07:52:46;0100;Server@node2;Req;;Type 21 request received from baovo@node2.supernodexp.hpc, sock=16
+05/03/2018 07:52:46;0100;Server@node2;Req;;Type 19 request received from baovo@node2.supernodexp.hpc, sock=16
+05/03/2018 07:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 3
+05/03/2018 07:53:25;0040;Server@node2;Svr;node2.supernodexp.hpc;Scheduler sent command 0
+05/03/2018 07:53:25;0100;Server@node2;Req;;Type 21 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:53:25;0100;Server@node2;Req;;Type 81 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:53:25;0100;Server@node2;Req;;Type 71 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:53:25;0100;Server@node2;Req;;Type 58 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:53:25;0100;Server@node2;Req;;Type 20 request received from Scheduler@node2.supernodexp.hpc, sock=16
+05/03/2018 07:53:25;0100;Server@node2;Req;;Type 51 request received from Scheduler@node2.supernodexp.hpc, sock=16
