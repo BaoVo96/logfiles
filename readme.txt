@@ -13,3 +13,8 @@ FCFS docker lan 3:	file in : 20180123, 20180424, tu job 11223-13222
 
 SJF docker 1000 jobs: file in: 20180502, 20150503 tu job 13260
 					file out: 20180502_SJF_1000.txt
+SJF docker 2000 jobs: file in: 20180503, 20180504 tu job 14260
+					file out: 20180503_SJF_2000.txt
+
+LJF docker 1000 jobs: file in: 20180505 tu job 16278
+					file out: 
