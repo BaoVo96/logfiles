@@ -19,4 +19,6 @@ SJF docker 2000 jobs: file in: 20180503, 20180504 tu job 14260
 LJF docker 1000 jobs: file in: 20180505 tu job 16278
 					file out: 20180505_LJF.txt
 
-LJF docker 2000 jobs: file in: ............. tu job 17278
+LJF docker 2000 jobs: file in: 20180505, 20180506, 20180507 tu job 17278
+					file out: 20180505_LJF_2000.txt
+
