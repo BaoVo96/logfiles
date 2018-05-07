@@ -22,3 +22,4 @@ LJF docker 1000 jobs: file in: 20180505 tu job 16278
 LJF docker 2000 jobs: file in: 20180505, 20180506, 20180507 tu job 17278
 					file out: 20180505_LJF_2000.txt
 
+EDD docker 1000 jobs: file in: 20180507, 20180508 tu job 19287
